@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [LW] True Level Calculator
 // @namespace    leekwars
-// @version      2025-08-29
+// @version      2025-08-29_14-30
 // @description  Affiche le niveau des poireaux/éleveur équivalent en capital et colore le talent.
 // @author       WhiteSlash
 // @match        https://leekwars.com/*
@@ -23,9 +23,9 @@
     }
     if (SETTINGS === null) {
         SETTINGS = {
-            'use_cores': false,
-            'use_ram' : false,
-            'use_frequency': false
+            'use_cores': true,
+            'use_ram' : true,
+            'use_frequency': true
         };
         saveSettings();
     } else {
