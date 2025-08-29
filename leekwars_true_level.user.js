@@ -23,9 +23,9 @@
     }
     if (SETTINGS === null) {
         SETTINGS = {
-            'use_cores': true,
-            'use_ram' : true,
-            'use_frequency': true
+            'use_cores': false,
+            'use_ram' : false,
+            'use_frequency': false
         };
         saveSettings();
     } else {
