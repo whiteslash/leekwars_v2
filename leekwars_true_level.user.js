@@ -7,8 +7,8 @@
 // @match        https://leekwars.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=leekwars.com
 // @grant        none
-// @downloadURL  https://github.com/whiteslash/leekwars_v2/raw/refs/heads/whiteslash-true-level/leekwars_true_level.user.js
-// @updateURL    https://github.com/whiteslash/leekwars_v2/raw/refs/heads/whiteslash-true-level/leekwars_true_level.user.js
+// @downloadURL  https://github.com/whiteslash/leekwars_v2/raw/whiteslash-true-level/leekwars_true_level.user.js
+// @updateURL    https://github.com/whiteslash/leekwars_v2/raw/whiteslash-true-level/leekwars_true_level.user.js
 // @supportURL   https://github.com/jogalaxy/leekwars_v2/issues
 // ==/UserScript==
 
