@@ -217,15 +217,12 @@
         capital += getCapitalFromRule(json.total_tp, PT_RULES);
 
         if (SETTINGS.use_frequency) {
-            console.log('avec la frequence');
             capital += json.total_frequency;
         }
         if (SETTINGS.use_cores) {
-            console.log('avec le core');
             capital += getCapitalFromRule(json.total_cores, CORES_RULES);
         }
         if (SETTINGS.use_ram) {
-            console.log('avec la ram');
             capital += getCapitalFromRule(json.total_ram, RAM_RULES);
         }
 
@@ -515,7 +512,6 @@
                         resetAllToLoad();
                         setTimeout(function() {
                             document.querySelectorAll('.content .leek').forEach(function(el) {
-                                console.log(el);
                                 var levelRegex = /([^\d]+)(\d+)/;
                                 var prefix = levelRegex.exec(el.querySelector('.level').innerText)[1];
                                 //displayLeekLevel(id, el.querySelector('.level'), prefix);
